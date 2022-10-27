@@ -1,3 +1,7 @@
+# Binaural searching of an array
+
+[Binaural Search notes for whiteboard](img/binarySearching.md)
+
 # Reverse an Array
 
 ## Whiteboard process
