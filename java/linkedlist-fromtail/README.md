@@ -5,6 +5,9 @@ Write a method that takes in a number and returns the value of the node at that 
 ## Whiteboard Process
 ![whiteboard process](linkedlist-kth.png)
 
+![White board for zip](Zip.png)
+
+
 ## Approach & Efficiency
 for my approach I chose to iterate through the linked list twice. first to establish the length of the list and second to get the value
 at the index of the key minuse the lengh of the list. this has an efficiency of On for both gathering the length and getting the value at the key index;
