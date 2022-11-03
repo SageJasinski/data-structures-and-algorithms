@@ -1,5 +1,7 @@
 package linkedlist.fromtail;
 
+import java.util.LinkedList;
+
 public class LinkyLIst {
   Node head;
 
@@ -30,6 +32,24 @@ public class LinkyLIst {
 
     // Return the list by head
     return list;
+  }
+
+
+  public void linkedZip(LinkyLIst b){
+    Node currentA = head, currB = b.head;
+    Node nextA, nextB;
+
+    while(currentA != null && currB != null){
+      nextA = currentA.next;
+      nextB = currB.next;
+
+      currB.next = nextA;
+      currentA.next = currB;
+
+      currentA = nextA;
+      currB = nextB;
+    }
+    b.head = currB;
   }
 
 }
