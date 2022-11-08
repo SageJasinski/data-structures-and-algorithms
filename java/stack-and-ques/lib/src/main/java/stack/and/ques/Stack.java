@@ -18,13 +18,13 @@ public class Stack {
     }
   }
 
-  public Node pop(){
+  public int pop(){
     if(top.next != null){
       top.next = null;
-      return top;
+      return top.data;
     }else{
       System.out.println("pop error: empty list");
-      return top;
+      return top.data;
     }
   }
 

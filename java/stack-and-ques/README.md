@@ -1,26 +1,16 @@
 # Stacks and Queues
-a stack and qu class for the Node class
+Psuedoque with two stacks
 
 ## Challenge
-push
-  - Arguments: value
-  - adds a new node with that value to the top of the stack with an O(1) Time performance.
-pop
-  - Arguments: none
-  - Returns: the value from node from the top of the stack
-  - Removes the node from the top of the stack
-  - Should raise exception when called on empty stack
-peek
-  - Arguments: none
-  - Returns: Value of the node located at the top of the stack
-  - Should raise exception when called on empty stack
-is empty
-  - Arguments: none
-  - Returns: Boolean indicating whether or not the stack is empty.
+Using two stacks create a que which follows the first in first out rule.
 
 ## Approach & Efficiency
-each method manipulates the data and next properties on each instantiared node class.
-for que the method will manipulate either the top or the tail of the node.
+We can denote one stack as out input stack where we can place all our values and the second stack as an output stack which we
+will push values into and that will naturally rearragne the order in the output stack to be first in first out.
+
+## Whitebord
+
+![Sage whiteboard for psudeo que](lib/src/main/resources/stack and que whiteboard.png)
 
 ## API
 no api was used
