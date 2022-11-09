@@ -4,6 +4,8 @@
 package stack.and.ques;
 
 import org.junit.jupiter.api.Test;
+import psuedoque.Psuedoque;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
@@ -61,5 +63,26 @@ class LibraryTest {
   @Test void IsEmptyChecker(){
       Que sut = new Que();
       assertTrue(sut.isEmpty());
+  }
+
+  @Test void PsuedoEnque(){
+    Psuedoque sut = new Psuedoque();
+    sut.enqueue(4);
+
+    int expected = 4;
+    assertEquals(expected, sut.inbox);
+  }
+
+  @Test void PsuedoDeque(){
+      Psuedoque sut = new Psuedoque();
+      sut.enqueue(3);
+      sut.enqueue(2);
+      sut.enqueue(1);
+
+      sut.dequeue();
+
+      int expected = 1;
+
+      assertEquals(expected, sut.outbox.pop());
   }
 }

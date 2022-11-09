@@ -1,26 +1,43 @@
 # Stacks and Queues
-a stack and qu class for the Node class
+Animal shelter
 
 ## Challenge
-push
-  - Arguments: value
-  - adds a new node with that value to the top of the stack with an O(1) Time performance.
-pop
-  - Arguments: none
-  - Returns: the value from node from the top of the stack
-  - Removes the node from the top of the stack
-  - Should raise exception when called on empty stack
-peek
-  - Arguments: none
-  - Returns: Value of the node located at the top of the stack
-  - Should raise exception when called on empty stack
-is empty
-  - Arguments: none
-  - Returns: Boolean indicating whether or not the stack is empty.
+create an AnimalShelter class which holds cats and dogs and obays first-in first-out.
+
+write a method for enqueue which takes in an animal
+
+write a method for dequeue which takes in "pref" which can be either cat ordog and returns the first dog or cat based on the "pref" if there aren't any it returns null
 
 ## Approach & Efficiency
-each method manipulates the data and next properties on each instantiared node class.
-for que the method will manipulate either the top or the tail of the node.
+for enqueue I took the animal node to input and made the tail of the ques equal the input and the animals next equal the tail. this has a time complexity of O(1)
+
+fir dequeue I itterated through the ques and checked if the current animals value was equal to the prefrence variable entered then if it did I returned that animal node. If
+the current next value was equal to null I returned null instead. this has a time complexity of On because of the iteration and the unknown size of the que we are working with.
+## Whitebord
+
+![animal shelter whiteboard](lib/src/main/resources/null (4).png)
+
+## API
+no api was used
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+# Stacks and Queues
+Psuedoque with two stacks
+
+## Challenge
+Using two stacks create a que which follows the first in first out rule.
+
+## Approach & Efficiency
+We can denote one stack as out input stack where we can place all our values and the second stack as an output stack which we
+will push values into and that will naturally rearragne the order in the output stack to be first in first out.
+
+## Whitebord
+
+![Sage whiteboard for psudeo que](lib/src/main/resources/stack and que whiteboard.png)
 
 ## API
 no api was used

@@ -1,9 +1,9 @@
 package stack.and.ques;
 
 public class Que {
-  Node front = new Node();
-  Node tail = new Node();
-  Node newnode = new Node();
+  public static Node front = new Node();
+  public static Node tail = new Node();
+  public Node newnode = new Node();
 
   public Integer enqueue(Integer value){
     tail.next = newnode;
