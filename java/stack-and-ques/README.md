@@ -1,4 +1,24 @@
 # Stacks and Queues
+Balanced brackets
+
+## Challenge
+Write a function that takes in a string and checks that each opening bracket has a closing bracket before the next Bracket
+
+## Approach & Efficiency
+I chose to loop through the expression and push to the top of an empty stack then when we come across a closing bracket
+to check the top of the stack for the corresponding opening bracket. This method has a big On due to iterating through the
+expression.
+
+## Whitebord
+
+![Sage brackets whiteboard](lib/src/main/resources/Brackets.png)
+
+## API
+no api was used
+
+-----------------------------------------------------------------------------------------------------------------
+
+# Stacks and Queues
 Animal shelter
 
 ## Challenge
