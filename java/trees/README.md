@@ -1,4 +1,22 @@
 # Trees
+Binary tree's Finding the max value
+
+## Challenge
+Create a method to find the max value of all nodes in a tree
+
+## Whiteboard
+
+![max tree image](tree max.png)
+
+## Approach & Efficiency
+I choose to check each nodes right and left values and check them against the stored value called max. if the values were greater it would set max to the current value. this has an efficiencey of On due to the dependency on how large the tree depth is
+
+## API
+No api was used
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trees
 Binary tree's and methods
 
 ## Challenge
