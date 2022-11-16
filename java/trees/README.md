@@ -1,4 +1,21 @@
 # Trees
+Binary tree's Breadth-first search
+
+## Challenge
+Create a method that takes a binary tree and lists the values out in the order they were encountered
+
+## Whiteboard
+
+![Beadth First whiteboard](Breadth first search.png)
+
+## Approach & Efficiency
+While the que is empty the method makes a node that removes the que, then if there is a left adds that to the que and same for the right. This has a time complexity of On due to the unknown size of the tree
+
+## API
+No api was used
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Trees
 Binary tree's Finding the max value
 
 ## Challenge
