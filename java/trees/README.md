@@ -1,4 +1,22 @@
 # Trees
+N-ary tree
+
+## Challenge
+Write a method that takes in a K-ary tree and can check wether the value of the node is divisible by 3 or 5 and returns a key word respectivly. return a new kary tree with the new values
+
+## Whiteboard
+
+![best attempt](Kth tree.png)
+
+## Approach & Efficiency
+Wasn't really sure how to do this and the internet was unhelpful. The best bet i could come up with was to travers through each child and check the value and change it based on the conditions provided
+this would require the use of a stack and making each node value pop out of the stack and change it's value as we go through each child.
+## API
+No api was used
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trees
 Binary tree's Breadth-first search
 
 ## Challenge

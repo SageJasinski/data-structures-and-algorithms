@@ -1,4 +1,10 @@
+import sun.security.util.DerValue;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Node {
+  Node child;
   Integer data;
   Node left;
   Node right;
@@ -39,4 +45,9 @@ public class Node {
   public void setRight(Node right) {
     this.right = right;
   }
+
+  public int size() {
+
+  }
+
 }
