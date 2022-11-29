@@ -2,7 +2,7 @@
 
 here we see an example of an easy way to sort a given array. after reviewing the psudo code i will break it down step by step:
 
-![Whiteboard](null (4).png)
+![Whiteboard](insertion.png)
 
 In the example above we are given an array list of integers. there are three main variables we are tracking in the method these are i,j,and temp.
 We start with i equal to 1 so that we can refrence the next value in the array as well as the value we are currently pointing to. This will be made clearer as we move through.
