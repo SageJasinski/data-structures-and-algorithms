@@ -1,4 +1,13 @@
 ## Challenge
+Write a method that can find the shortest distences to another point on the graph.
+
+## WhiteBoard
+![Whitebord](algorithm.png)
+
+## API
+Non used at this time
+------
+## Challenge
 Write a method that given a node will out put a collection of nodes as they were traversed.
 
 ## WhiteBoard
