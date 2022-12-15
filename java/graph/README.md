@@ -1,4 +1,15 @@
 ## Challenge
+Write a method that given a node can print the The nodes that where visited
+
+## WhiteBoard
+![whiteBoard](Graph-Depthfirst-search.png)
+
+## API
+Non used at this time
+
+
+-----------------
+## Challenge
 Write a method that can find the shortest distences to another point on the graph.
 
 ## WhiteBoard
